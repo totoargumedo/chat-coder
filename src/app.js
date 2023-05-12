@@ -1,7 +1,7 @@
 import "dotenv/config.js";
 import express from "express";
 import { engine } from "express-handlebars";
-import { __dirname } from "utils.js";
+import { __dirname } from "./utils.js";
 import logger from "morgan";
 import error_handler from "./middlewares/errorHandler.js";
 import notFoundHandler from "./middlewares/notFoundHandler.js";
